@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(44, 0, 58);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham', sans-serif;
+}
+
+.contenedor-macro{
+    width: 60%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0.3rem 0.3rem 0.8rem 0.2rem rgb(143, 1, 124);
+
+    display: grid;
+}
+
+@media (max-width: 800px) {
+    .contenedor-macro{
+        width: 90%;
+    }
+}
+
+.contenedor-foto{
+    justify-self: center;
+    display: grid;
+}
+
+.foto{
+    width: 16rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.modificarfoto{
+    width: 16rem;
+    justify-self: center;
+    align-self: center;
+}
+
+@media (max-width: 800px) {
+    .foto{
+        width: 12rem;
+    }
+
+    .modificarfoto{
+        width: 12rem;
+    }
+}
+
+.contenedor-informacion{
+    justify-self: center;
+    padding: 2rem;
+
+    display: grid;
+    grid-gap: 1.5rem;
+}
+
+.titulo{
+    width: 100%;
+    margin: auto;
+    color: white;
+    justify-self: center;
+    text-align: center;
+    font-family: 'Gotham bold', sans-serif;
+}
+
+@media (max-width: 800px) {
+    .titulo{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+}
+
+.contenedor-parrafo{
+    justify-self: center;
+    display: grid;
+    grid-gap: 1.5rem;
+}
+
+.parrafo{
+    justify-self: center;
+    width: 70%;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.5rem;
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .parrafo{
+        width: 100%;
+        font-size: 1rem;
+    }
+}
+
+.boton{
+    justify-self: center;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    color: rgb(214, 17, 148);
+    border-radius: 10px;
+    box-shadow: 0.1rem 0.1rem 0.8rem 0.2rem rgb(143, 1, 124);
+}
+
+.boton:hover{
+    background-color: rgb(202, 201, 201); 
+}
+
+.boton-apagar{
+    display: none;
+}
+
+.hipervinculo{
+    text-decoration: none;
+    color: rgb(255, 44, 185);
+    font-weight: 600;
+}
+
+.hipervinculo:hover{
+    color: rgb(233, 15, 160);
+}
+
