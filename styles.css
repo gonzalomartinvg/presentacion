@@ -13,9 +13,11 @@ body{
     width: 60%;
     margin: auto;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0.3rem 0.3rem 0.8rem 0.2rem rgb(143, 1, 124);
+ 
 
     display: grid;
 }
